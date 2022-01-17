@@ -1,0 +1,40 @@
+#products {
+    flex-wrap: wrap;
+  }
+  
+  #products img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card {
+    width: calc(100% / 3);
+  }
+  .checkout {
+    height: 300px;
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+
+/* Nav section */
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 25px;
+    color:blue;
+    padding: 20px;
+}
+.nav-link:hover{
+    margin-top: 1px;
+    border-bottom: 4px solid black;
+    padding: 1px;
+}
+body{ 
+  background-position: 100%;
+  background-image: url(./istockphoto-1291478581-170667a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+}
